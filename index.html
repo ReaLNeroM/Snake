@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake</title>
+		<style>
+			body {
+				background-color:black;
+			}
+			.myCanvas {
+				display:flex;justify-content:center;align-items:center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<input type="checkbox" id="overlap-death">
+			<font color = "white"> Is the worm a cannibal?</font>
+			<br>
+		<input type="checkbox" id="auto">
+			<font color = "white"> Do you want pretty patterns?</font>
+			<br>
+		<input type="range" id="size">
+			<font color = "white"> Size of board </font>
+			<br>
+
+
+		<div class = "myCanvas">
+			<canvas id='canvas' width='1000' height='1000'></canvas>
+		</div>
+
+		<script src='snake.js'></script>
+		<script src='controls.js'></script>
+	</body>
+</html>
