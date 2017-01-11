@@ -49,7 +49,7 @@ function wait_time_for_board(size){
 		//this is way too fast for playing on big boards
 		return Math.round(2500 / (size * size));
 	} else {
-		return Math.round(1750 / (size));
+		return Math.round(2500 / (size));
 	}
 
 }
